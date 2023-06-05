@@ -1,17 +1,29 @@
 import random
 
-palabras = [
-    'abecedario', 'barco', 'caballo', 'dinosaurio', 'elefante', 'fresa', 'guitarra', 'hamburguesa', 'iglesia', 'jirafa',
-    'koala', 'limón', 'manzana', 'naranja', 'oso', 'piano', 'queso', 'ratón', 'sandía', 'tortuga', 'uva', 'vaca', 'zanahoria',
-    'abeja', 'ballena', 'cabra', 'delfín', 'escuela', 'flor', 'gato', 'helado', 'isla', 'juego', 'kiwi', 'león', 'mariposa',
-    'nube', 'ojo', 'pájaro', 'quesadilla', 'rana', 'serpiente', 'tigre', 'unicornio', 'volcán', 'xilófono', 'yate', 'zorro',
-    'anillo', 'bolígrafo', 'calcetín', 'dado', 'escoba', 'fuego', 'globo', 'hilo', 'imán', 'joya', 'kilogramo', 'linterna',
-    'martillo', 'nuez', 'ostra', 'pluma', 'quiosco', 'reloj', 'sombrero', 'taza', 'uña', 'vela', 'waffle', 'yogur', 'zapato',
-    'árbol', 'buho', 'campana', 'dados', 'estrella', 'faro', 'guitarra', 'hacha', 'iguana', 'jirafa', 'koala', 'lagarto',
-    'manzana', 'nariz', 'oruga', 'pelota', 'queso', 'rana', 'serpiente', 'tigre', 'uña', 'vaca', 'zanahoria', 'ángel', 'bola',
-    'cama', 'dado', 'elefante', 'flor', 'gato', 'helado', 'iglesia', 'jungla', 'kiosco', 'luna', 'manzana', 'nido', 'ojo',
-    'pelota', 'queso', 'ratón', 'sol', 'taza', 'uva', 'ventana', 'yogur', 'zapato'
+nombres_animal = [
+    'perro', 'gato', 'elefante', 'jirafa', 'tigre', 'leon', 'lobo', 'rinoceronte', 'cebra', 'hipopotamo', 'gorila',
+    'chimpance', 'orangutan', 'koala', 'canguro', 'pinguino', 'panda', 'murcielago', 'serpiente', 'cocodrilo', 'tortuga',
+    'abeja', 'araña', 'mariposa', 'escarabajo', 'camaleon', 'loro', 'pavo', 'buitre', 'pato', 'búho', 'gaviota', 'pelicano',
+    'tiburón', 'delfín', 'ballena', 'medusa', 'caballo', 'vaca', 'cerdo', 'oveja',
+    'cabrito', 'pollo', 'gallina', 'pavo real', 'ratón', 'conejo', 'hamster', 'hámster', 'erizo',
+    'cangrejo', 'langosta', 'cabra', 'caracol', 'anguila', 'calamar',
+    'ciervo', 'mapache', 'canguro', 'lagarto', 'camarón', 'nutria', 'búfalo', 'rinoceronte', 
+    'águila', 'ocelote', 'chimpancé', 'avestruz', 'flamenco', 'murciélago', 'cisne'
+]
+
+nombres_frutas = [
+    'manzana', 'plátano', 'naranja', 'uva', 'sandía', 'piña', 'mango', 'fresa', 'kiwi', 'pera',
+    'melón', 'limón', 'cereza', 'papaya', 'frambuesa', 'ciruela', 'granada', 'mandarina', 'durazno', 'pomelo'
 ]
 
 
+nombres_paises = [
+    'Afganistán', 'Alemania', 'Argentina', 'Australia', 'Bolivia', 'Brasil', 'Canadá', 'Chile', 'China', 'Colombia',
+    'Corea del Sur', 'Egipto', 'España', 'Estados Unidos', 'Francia', 'India', 'Italia', 'Japón', 'México', 'Perú',
+    'Portugal', 'Reino Unido', 'Rusia', 'Sudáfrica', 'Suiza', 'Turquía', 'Ucrania', 'Uruguay', 'Venezuela', 'Vietnam'
+]
 
+nombres_colores = [
+    'rojo', 'azul', 'verde', 'amarillo', 'naranja', 'rosa', 'morado', 'blanco', 'negro', 'gris',
+    'marrón', 'celeste', 'violeta', 'turquesa', 'dorado', 'plateado', 'beige', 'salmon', 'café', 'crema'
+]
